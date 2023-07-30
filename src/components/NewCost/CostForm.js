@@ -46,7 +46,7 @@ const CostForm = (props) => {
     event.preventDefault();
 
     const costData = {
-      name: inputName,
+      description: inputName,
       amount: inputAmount,
       date: new Date(inputDate),
     };
@@ -73,7 +73,7 @@ const CostForm = (props) => {
             value={inputAmount}
             onChange={amountChangeHandler}
             min="0.01"
-            step="0,01"
+            step="0.01"
           />
         </div>
         <div className="new-cost__control">
