@@ -1,7 +1,8 @@
 import Card from "../UI/Card";
 import CostDate from "./CostDate";
+import React from "react";
+
 import "./CostItem.css";
-import React, { useState } from "react";
 
 const CostItem = (props) => {
   return (

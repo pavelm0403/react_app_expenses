@@ -6,19 +6,19 @@ const initial_costs = [
   {
     id: "c1",
     date: new Date(2023, 1, 1),
-    description: "Монитор",
+    description: "ПОКУПКА 1",
     amount: 500.65,
   },
   {
     id: "c2",
     date: new Date(2023, 1, 1),
-    description: "MacBook",
+    description: "ПОКУПКА 2",
     amount: 1500.88,
   },
   {
     id: "c3",
     date: new Date(2022, 4, 4),
-    description: "Кресло",
+    description: "ПОКУПКА 3",
     amount: 249.99,
   },
 ];

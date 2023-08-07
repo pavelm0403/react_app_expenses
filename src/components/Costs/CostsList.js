@@ -5,7 +5,7 @@ import "./CostList.css";
 const CostsList = (props) => {
   if (props.costs.length === 0) {
     return (
-      <h2 className="cost-list__fallback">В этом году расходов не было</h2>
+      <h2 className="cost-list__fallback">ЗА ЭТОТ ГОД РАСХОДЫ НЕ НАЙДЕНЫ</h2>
     );
   }
 

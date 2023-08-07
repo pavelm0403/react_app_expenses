@@ -15,12 +15,15 @@
 .new-cost__control input {
   font: inherit;
   padding: 0.5rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 20rem;
+  width: 15rem;
   max-width: 100%;
+  cursor: pointer;
+  background-color: whitesmoke
 }
 
 .new-cost__actions {
-  text-align: left;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
